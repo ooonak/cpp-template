@@ -13,6 +13,12 @@ $ conan create .
 $ pre-commit run --all-files
 ```
 
+You can give clang-tidy 'fix' a try.
+
+```
+$ clang-tidy src/main.cpp --fix-errors
+```
+
 ## Initial bring up
 
 Setup pre-commit file.

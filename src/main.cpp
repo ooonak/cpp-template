@@ -1,9 +1,14 @@
+#include <iostream>
 #include <string>
 #include <vector>
 
 #include "cpp-template.h"
 
+auto function() -> int { return 'c'; }
+
 int main() {
+  std::cout << function() << '\n';
+
   cpp_template();
 
   std::vector<std::string> vec;
