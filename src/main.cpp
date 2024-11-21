@@ -1,12 +1,13 @@
-#include "cpp-template.h"
-#include <vector>
 #include <string>
+#include <vector>
+
+#include "cpp-template.h"
 
 int main() {
-    cpp_template();
+  cpp_template();
 
-    std::vector<std::string> vec;
-    vec.push_back("test_package");
+  std::vector<std::string> vec;
+  vec.push_back("test_package");
 
-    cpp_template_print_vector(vec);
+  cpp_template_print_vector(vec);
 }

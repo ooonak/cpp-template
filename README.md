@@ -9,3 +9,5 @@ $ pre-commit install
 $ pre-commit sample-config >> .pre-commit-config.yaml
 $ pre-commit autoupdate
 ```
+clang-format -style=google -dump-config > .clang-format
+clang-tidy --dump-config > .clang-tidy
